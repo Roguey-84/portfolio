@@ -1,0 +1,57 @@
+$header-height: 3rem;
+
+/*========== COLORS ==========*/ 
+/* Change color mode */
+$hue-color: 250;
+
+/* Main colors in HSL */
+$primary-color: hsl($hue-color, 69%, 61%);
+$primary-color-second: hsl($hue-color, 69%, 61%);
+$primary-color-alt: hsl($hue-color, 53%, 53%);
+$primary-color-lighter: hsl($hue-color, 92%, 85%);
+$title-color: hsl($hue-color, 8%, 15%);
+$text-color: hsl($hue-color, 8%, 45%);
+$text-color-light: hsl($hue-color, 8%, 65%);
+$input-color: hsl($hue-color, 70%, 96%);
+$body-color: hsl($hue-color, 90%, 99%);
+$container-color: #FFF;
+
+/*========== FONT SETTINGS ==========*/
+$main-font: 'Roboto', Arial, Helvetica, sans-serif;
+
+$big-text: 2rem;
+$h1-text: 1.5rem;
+$h2-text: 1.25rem;
+$h3-text: 1.125rem;
+$normal-text: .938rem;
+$small-text: .813rem;
+$smaller-text: .75rem;
+
+$text-weight-normal: 500;
+$text-weight-bold: 600;
+
+/*========== MARGINS ==========*/
+$m-0-25: 0.25rem;
+$m-0-5: 0.5rem;
+$m-0-75: 0.75rem;
+$m-1: 1rem;
+$m-1-5: 1.5rem;
+$m-2: 2rem;
+$m-2-5: 2.5rem;
+$m-3: 3rem;
+
+/*========== Z-INDEX ==========*/
+$z-index-tooltip: 10;
+$z-index-fixed: 100;
+$z-index-modal: 1000;
+
+/*========== LARGE DEVICES ==========*/
+@media screen and (min-width: 968px) {
+	$big-text: 3rem;
+	$h1-text: 2.25rem;
+	$h2-text: 1.5rem;
+	$h3-text: 1.25rem;
+	$normal-text: 1rem;
+	$small-text: .875rem;
+	$smaller-text: .813rem;
+}

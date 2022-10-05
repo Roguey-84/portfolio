@@ -1,0 +1,21 @@
+@import './vars';
+
+/*========== UTILITIES ==========*/
+.section {
+	padding: 2rem 0 4rem;
+}
+
+.section__title {
+	font-size: $h1-text;
+}
+
+.section__subtitle {
+	display: block;
+	font-size: $small-text;
+	margin-bottom: $m-3;
+}
+
+.section__title,
+.section__subtitle {
+	text-align: center;
+}
